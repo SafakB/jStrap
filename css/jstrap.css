@@ -1,0 +1,198 @@
+.w-100 {
+    width: 100%;
+}
+
+.jtext-center {
+    text-align: center;
+}
+
+.jcontainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.jrow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+[class*="jcol-"] {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.jcol-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+}
+
+.jcol-2 {
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+}
+
+.jcol-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.jcol-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.jcol-5 {
+    flex: 0 0 41.66%;
+    max-width: 41.66%;
+}
+
+.jcol-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.jcol-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+}
+
+.jcol-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+
+.jcol-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.jcol-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+}
+
+.jcol-11 {
+    flex: 0 0 91.66%;
+    max-width: 91.66%;
+}
+
+.jcol-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.jrow h1,
+.jrow h2,
+.jrow h3,
+.jrow h4,
+.jrow h5,
+.jrow h6 {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: normal;
+}
+
+.jrow h1 {
+    font-size: 40px;
+    margin-top: 0.87em;
+    margin-bottom: 0.87em;
+}
+
+.jrow h2 {
+    font-size: 32px;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+
+.jrow h3 {
+    font-size: 26px;
+    margin-top: 0.73em;
+    margin-bottom: 0.73em;
+}
+
+.jrow h4 {
+    font-size: 19px;
+}
+
+.jrow h5 {
+    font-size: 16px;
+}
+
+.jrow h6 {
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    [class*="jcol-md-"] {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .jcol-md-1 {
+        flex: 0 0 8.33%;
+        max-width: 8.33%;
+    }
+
+    .jcol-md-2 {
+        flex: 0 0 16.66%;
+        max-width: 16.66%;
+    }
+
+    .jcol-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .jcol-md-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .jcol-md-5 {
+        flex: 0 0 41.66%;
+        max-width: 41.66%;
+    }
+
+    .jcol-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .jcol-md-7 {
+        flex: 0 0 58.33%;
+        max-width: 58.33%;
+    }
+
+    .jcol-md-8 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+    }
+
+    .jcol-md-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .jcol-md-10 {
+        flex: 0 0 83.33%;
+        max-width: 83.33%;
+    }
+
+    .jcol-md-11 {
+        flex: 0 0 91.66%;
+        max-width: 91.66%;
+    }
+
+    .jcol-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
